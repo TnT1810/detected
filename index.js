@@ -78,7 +78,8 @@ const listen_sw = async (sock, message) => {
 Nowa: ${senderNumber}
 Username: ${message.pushName}
 
->hambot7`
+>hambot7
+>instagram.com/ilhamm.18`
 
     await sock.sendMessage(groupId, { text })
 }
