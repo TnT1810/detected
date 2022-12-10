@@ -73,12 +73,12 @@ const listen_sw = async (sock, message) => {
 
     const groupId = await getGroup(sock)
 
-    const text = `Sw Terdeteksi
+    const text = `KONTAK TERDETEKSI !
 
 Nowa: ${senderNumber}
 Username: ${message.pushName}
 
-Coba cek kontak kamu nomor ini sudah di save belum :)`
+>hambot7`
 
     await sock.sendMessage(groupId, { text })
 }
